@@ -120,7 +120,7 @@ app.post('/send', async (req, res) => {
         
         const mailOptions = {
             from: email,
-            to: 'saadirania33@gmail.com',
+            to: 'DFWSolarReport@gmail.com',
             subject: "From website",
             text:`<html><head></head><body><p>name: ${name}</p><p>phone: ${phone}</p><p>email: ${email}</p><p>Do you own your home? :${homeStatus}</p><p>Street address :${adress}</p><p>Average electric bill  :${electricBill}</p><p>current electric company  :${electricCompany}</p><p>Do you have a credit score of 600 or higher :${creditScore}</p><p>Slected Date and Hour :${date} at ${hour}</p></body></html>`
         };
